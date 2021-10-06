@@ -60,9 +60,9 @@
 Steps for creating your first pull request (PR)
 
     1. Fork this repository
-    2. Goto branch named "main"
-    3. Navigate to "Projects"
-    4. Upload your projects
+    2. Goto branch named "master"
+    3. Create and checkout a new branch.
+    4. Upload your projects in the folder- "ProjectName_YourName"
     5. Commit changes
     6. Goto "<>Code" tab & click Contribute
     7. Open PR & create PR with a message 
