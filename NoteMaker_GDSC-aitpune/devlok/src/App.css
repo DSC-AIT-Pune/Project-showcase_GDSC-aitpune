@@ -1,0 +1,766 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+}
+body {
+  display: flex;
+  height: 100vh;
+  /* font-family: adelle sans; */
+  justify-content: center;
+  align-items: center;
+  background-color: #cfd9fc;
+  color: white;
+}
+p {
+  line-height: 25px;
+}
+li {
+  line-height: 25px;
+}
+.main {
+  height: 100vh;
+  width: 100vw;
+  /* background-color: #1d195b; */
+  /* background-color: #0795ff; */
+  background: rgb(7, 113, 192);
+  background: linear-gradient(
+    rgba(7, 113, 192, 1) 2%,
+    rgba(7, 149, 255, 1) 58%,
+    rgba(86, 180, 249, 1) 90%
+  );
+  /* border-radius: 20px; */
+  /* box-shadow: 10px 10px 10px rgb(68, 68, 68); */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.navbar_container {
+  height: 100%;
+  width: 25%;
+  min-width: 300px;
+  /* background-color: red; */
+  border-radius: 73px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.Logo_image {
+  display: inline-block;
+  height: 48px;
+  width: 48px;
+  margin-right: 5%;
+}
+.Main_logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: auto;
+  width: 75%;
+  /* background-color: black; */
+  /* margin-top: 20px; */
+  font-size: 22px;
+  font-weight: bold;
+}
+a {
+  color: white;
+  height: 48px;
+  width: 75%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+  padding-left: 7%;
+  padding-right: 7%;
+  background-color: #fffafa46;
+  margin: 10px 0px;
+  border-radius: 10px;
+}
+.component_images {
+  display: inline-block;
+  height: 27px;
+  width: 27px;
+  margin: 0px 5px;
+}
+.signIn_logo {
+  background-color: transparent !important;
+  font-size: 22px;
+  font-weight: bold;
+}
+.cartoon {
+  width: 75%;
+  aspect-ratio: 1/1;
+}
+
+a:hover {
+  background-color: #fffafa4d;
+}
+
+.editor {
+  height: 97%;
+  width: 95%;
+  background-color: #eff0fa;
+  background-color: white;
+  /* background-color: #1d195b; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  margin-right: 10px;
+  color: black;
+  /* border: 7px solid #1d195b;
+  box-shadow: inset 0 0 20px rgb(5, 5, 5), 0 0px 20px rgb(77, 76, 76); */
+  /* backdrop-filter: blur(100px); */
+  /* filter: blur(1px);
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(1px); */
+}
+.add2 {
+  justify-content: flex-start;
+}
+
+button {
+  height: 41px;
+  width: 45%;
+  background-color: #1f5eff;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ck-editor__editable_inline {
+  min-height: 350px;
+  /* width: 100%; */
+}
+/* ##########################ck editor############ */
+
+/* ####################################################### */
+.submit_options {
+  width: 50%;
+  min-width: 200px;
+  height: 50px;
+  /* background-color: black; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1%;
+}
+.singIn {
+  /* min-width: 200px; */
+}
+
+CKEditor {
+  height: 75%;
+  width: 10% !important;
+}
+.output {
+  color: black;
+  height: 30px;
+  width: 50%;
+  /* background-color: chartreuse; */
+}
+input {
+  background-color: transparent;
+  border: none;
+  height: 32px;
+  min-width: 200px;
+  /* width: 50%; */
+  margin: 5px 5px;
+  border-bottom: 1px solid rgb(80, 80, 80);
+}
+
+/* ##############################Lobby design ##############################; */
+.Lobby_container {
+  height: auto;
+  width: 90%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row !important;
+  /* justify-content: space-around; */
+  border-radius: 0px;
+  padding-left: 10px;
+}
+
+.Lobby_container::-webkit-scrollbar {
+  width: 5px;
+}
+.content {
+  display: none;
+}
+.Lobby_container::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.Lobby_container::-webkit-scrollbar-thumb {
+  background: rgb(92, 91, 91);
+  border-radius: 10px;
+}
+.Note_output_box {
+  height: auto;
+  width: 300px;
+  /* display: flex; */
+  background-color: #0795ff;
+  background-color: #6dc5f4;
+  background-color: white;
+  box-shadow: 0px 0px 3px black;
+  color: rgb(27, 27, 27);
+  padding: 5px 5px;
+  position: relative;
+  margin: 5px 5px;
+}
+.Note_output_box h3 {
+  text-transform: capitalize;
+  margin-left: 10px;
+}
+.Note_output_box p {
+  margin-left: 10px;
+}
+.Note_output_box i {
+  color: rgb(73, 70, 70);
+  margin-left: 10px;
+  font-weight: lighter;
+}
+.edit_button {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: auto !important;
+  height: auto !important;
+  background-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  top: 5px;
+  right: 20px;
+}
+.edit_button button {
+  width: auto !important;
+  height: auto !important;
+  background-color: transparent;
+  margin: 0px 5px;
+}
+
+.more_button {
+  display: inline;
+  width: auto !important;
+  height: auto !important;
+  background-color: rgba(255, 255, 255, 0.103);
+  margin: 0px;
+  padding: 0px;
+  color: grey;
+}
+.edit_button:hover {
+  cursor: pointer;
+}
+button:hover {
+  cursor: pointer;
+}
+.share_box {
+  display: flex;
+  flex-direction: row;
+}
+.share_box input {
+  width: 80%;
+}
+.share_button {
+  width: auto;
+  min-width: 18%;
+  color: black;
+  /* padding: 0px 20px; */
+}
+
+/* ##########################################dashboard container ############################# */
+
+.Dashboard_conatiner {
+  height: auto;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+li {
+  list-style-type: none;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.cartoon_dash {
+  margin-left: 20px;
+  width: 35%;
+  aspect-ratio: 1/1;
+}
+
+/* ###########################################navbar_phone ############################### */
+.logout_button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  width: 100%;
+}
+.logout_button button {
+  background-color: transparent;
+  margin-left: 15px;
+}
+
+.navbar_phone {
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  left: 0px;
+  background-color: #0795ff;
+  background-color: #0795ff;
+}
+
+.Phone_nav_button {
+  height: auto;
+  display: none;
+  margin: none;
+  padding: none;
+}
+
+/* ######################################signIn_Page################################# */
+/* .sigin_card_cover {
+  height: 50%;
+  min-height: 350px;
+  min-width: 350px;
+  width: 40%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 20px;
+
+  background-color: #1d195b;
+} */
+.loginContainer {
+  height: 70%;
+  width: 80%;
+  /* background-color: rgb(240, 238, 238); */
+  background-color: whitesmoke;
+  background-color: #7abef3;
+  display: flex;
+  flex-direction: row-reverse;
+  /* justify-content: space-between; */
+  align-items: space-between;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgb(187, 187, 187);
+}
+.loginImage {
+  width: 40%;
+  height: 100%;
+  /* background-color: black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 5%;
+  color: #17e6be;
+}
+.loginImage img {
+  width: 80%;
+  aspect-ratio: 1/1;
+}
+form {
+  width: 70%;
+}
+.loginSubmitButton {
+  width: 100% !important;
+  margin-top: 10px;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+}
+.sigin_card {
+  height: 100%;
+  width: 50%;
+  min-height: 350px;
+  min-width: 300px;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 20px;
+  background-color: #0795ff;
+}
+.sigin_card input {
+  color: black;
+  background-color: transparent;
+  width: 100%;
+}
+.hr {
+  width: 100%;
+  height: 2px;
+  background-color: rgba(185, 185, 185, 0.678);
+}
+button:active {
+  background-color: #67c2f3d2;
+  border: 2px solid #0795ff;
+}
+.note_writter {
+  display: inline-block;
+}
+.share_box {
+  display: none;
+}
+form input::placeholder {
+  /* Firefox, Chrome, Opera */
+  color: black;
+}
+
+form input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: red;
+}
+
+form input::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: orange;
+}
+
+/* #################################note maker######################################### */
+.NotesContianer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: space-between;
+  background-color: white;
+}
+.notemaker {
+  width: 75%;
+  height: 90%;
+  /* background-color: rgb(15, 146, 37); */
+  display: flex;
+  justify-content: center;
+}
+.lobbyShower {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95%;
+  width: 25%;
+  background-color: #0795ff;
+  background: rgb(7, 113, 192);
+  background: linear-gradient(
+    rgba(7, 113, 192, 1) 43%,
+    rgba(7, 149, 255, 1) 100%,
+    /* rgba(86, 180, 249, 1) 100% */
+  );
+  margin-right: 20px;
+  border-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  justify-self: flex-end !important;
+}
+.lobbyShower_output {
+  height: 90%;
+  width: 95%;
+  display: flex;
+  /* background-color: green; */
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+
+  /* background-color: yellow; */
+}
+Link {
+  text-transform: capitalize !important;
+}
+.linkInNotes {
+  position: relative;
+}
+.deleteInNotes {
+  background-color: transparent;
+  height: auto;
+  width: auto;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  right: 5px;
+}
+
+/* ######################################loading ############################################### */
+
+.loadingContainer {
+  height: 90%;
+  width: 90%;
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+  color: tomato;
+  text-transform: capitalize;
+  justify-content: center;
+  align-items: center;
+}
+.loadingContainer img {
+  width: 30%;
+  min-width: 250px;
+  aspect-ratio: 1/1;
+}
+
+/* ############### wait ###################################################### */
+
+.waitContainer {
+  height: 90%;
+  width: 90%;
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+  color: tomato;
+  text-transform: capitalize;
+  justify-content: center;
+  align-items: center;
+}
+
+.waitContainer img {
+  width: 30%;
+  min-width: 300px;
+  aspect-ratio: 1/1;
+}
+.waitButtonContainer {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+  align-items: center;
+  /* min-width: 400px; */
+  height: auto;
+}
+.waitButtonContainer button {
+  margin-top: 20px;
+  width: 30%;
+  min-width: 140px;
+  margin-left: 20px;
+  padding: auto 0px;
+}
+.waitButtonLink {
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ###################lobby############################################ */
+.lobbyHeading {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: auto;
+  width: 90%;
+  background-color: white;
+  box-shadow: 0px 0px 3px gray;
+  padding: 5px 0px;
+  margin-top: 20px;
+}
+.add {
+  box-shadow: none;
+}
+.lobbyHeading button {
+  width: 20%;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.lobbyHeading.add {
+  margin-top: 0px;
+}
+/* ###################################media Query ####################################### */
+/* ###################################media Query ####################################### */
+/* ###################################media Query ####################################### */
+/* ###################################media Query ####################################### */
+/* ###################################media Query ####################################### */
+/* ###################################media Query ####################################### */
+/* ###################################media Query ####################################### */
+@media only screen and (max-width: 1200px) {
+  .lobbyShower {
+    display: none;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .navbar_container {
+    display: none;
+  }
+
+  .waitContainer {
+    font-size: 7px;
+  }
+  .loadingContainer {
+    font-size: 10px;
+  }
+  .Phone_nav_button {
+    display: inline;
+    height: auto;
+    width: auto;
+  }
+
+  .cartoon_dash {
+    display: none;
+    margin-left: 20px;
+    width: 35%;
+    aspect-ratio: 1/1;
+  }
+  .note_writter {
+    display: none;
+  }
+  body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: white;
+    color: white;
+  }
+  .lobbyShower {
+    display: none;
+  }
+  .main {
+    height: 100vh;
+    width: 100vw;
+    background-color: #0795ff;
+    border-radius: 0px;
+    box-shadow: 10px 10px 10px rgb(68, 68, 68);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  a {
+    color: white;
+    height: 5%;
+    width: 100vw;
+    display: flex;
+    align-items: space-between;
+    justify-content: space-between;
+    flex-direction: row;
+
+    background-color: transparent;
+  }
+  .round_logo {
+    background-color: rgba(255, 255, 255, 0.103);
+    padding: 3px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  .round_logo img {
+    height: 35px;
+    width: 35px;
+  }
+  .Dashboard_conatiner {
+    height: auto;
+    width: 80%;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .editor {
+    height: 90%;
+    width: 96%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    margin-right: 0px;
+    color: black;
+  }
+
+  .Note_output_box {
+    font-size: 12px;
+  }
+  .Lobby_container p {
+    font-size: 12px !important;
+  }
+
+  .loginContainer {
+    height: 70%;
+    width: 80%;
+    /* background-color: rgb(240, 238, 238); */
+    background-color: whitesmoke;
+    background-color: #7abef3;
+    display: flex;
+    flex-direction: row-reverse;
+    /* justify-content: space-between; */
+    align-items: space-between;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(187, 187, 187);
+  }
+  .loginImage {
+    display: none;
+    width: 0%;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 0%;
+    color: #17e6be;
+  }
+  .loginImage img {
+    width: 80%;
+    aspect-ratio: 1/1;
+    display: none;
+  }
+  form {
+    width: 70%;
+  }
+  .loginSubmitButton {
+    width: 100% !important;
+    margin-top: 10px;
+  }
+  .inputContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  .sigin_card {
+    height: 100%;
+    width: 100%;
+    min-height: 0px;
+    min-width: 0px;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+    background-color: #0795ff;
+  }
+}

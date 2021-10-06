@@ -1,0 +1,77 @@
+
+
+
+{
+   "email":"mukesh@gmail.com",
+   "password":"pass"
+}
+###
+
+#########access token #######
+POST https://note-maker02.herokuapp.com/al/login
+Content-Type: application/json
+
+{
+ 
+    "email": "mukesh@gmail.com",
+    "password": "pass"
+
+}
+###
+DELETE https://note-maker02.herokuapp.com/al/logout
+
+
+
+
+###
+POST https://note-maker02.herokuapp.com/al/login
+Content-Type: application/json
+
+{
+   "email":"mukesh@gmail.com",
+   "password":"pass"
+}
+
+
+###
+GET https://note-maker02.herokuapp.com/a/posts
+
+
+####
+POST https://note-maker02.herokuapp.com/note/writter
+Content-Type: application/json
+
+{
+    "topic":"fasdfdsdsdsadsd",
+    "subject":"tefdf6sdsd5",
+    "written":"this is testing 2"
+    
+}
+
+
+
+###
+GET https://note-maker02.herokuapp.com/note/allSaved
+ 
+###
+PUT https://note-maker02.herokuapp.com/note/shareWith
+Content-Type: application/json
+
+{
+"_id":"614d828033c0e3baeeee9b41",
+"user1":"mukesh@gmail.com"
+}
+
+###
+GET https://note-maker02.herokuapp.com/note/resources 
+
+
+###
+ 
+DELETE https://note-maker02.herokuapp.com/note/Delete   
+Content-Type: application/json
+
+{
+"_id":"614d83a5304bed57469d61f4"
+ 
+}
