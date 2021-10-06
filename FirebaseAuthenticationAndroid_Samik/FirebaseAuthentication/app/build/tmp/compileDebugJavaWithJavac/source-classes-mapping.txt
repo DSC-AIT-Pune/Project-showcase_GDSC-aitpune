@@ -1,0 +1,2 @@
+com/example/firebaseauthentication/BuildConfig.java
+ com.example.firebaseauthentication.BuildConfig
