@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.app {
+	height: auto;
+}
+
+.member {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.headings {
+	text-align: center;
+	margin: 28px 0 0 0;
+}
+
+.Nav {
+	text-align: center;
+	color: black;
+	height: 5%;
+	padding-top: 10px;
+	background: linear-gradient(
+		270deg,
+		rgba(255, 255, 255, 1) 0%,
+		rgba(215, 213, 213, 1) 0%,
+		rgba(242, 242, 242, 1) 100%
+	);
+}
+
+.container {
+	position: relative;
+	max-width: 220px;
+	margin: 28px 30px;
+	justify-content: space-around;
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1 1 200px;
+}
+
+.container .card {
+	position: relative;
+	height: 270px;
+	background: #292929;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 6px 6px 5px -1px rgba(0, 0, 0, 0.67);
+	-webkit-box-shadow: 6px 6px 5px -1px rgba(0, 0, 0, 0.67);
+	-moz-box-shadow: 6px 6px 5px -1px rgba(0, 0, 0, 0.67);
+}
+
+.container .card:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(
+		0deg,
+		rgba(221, 220, 236, 1) 0%,
+		rgba(211, 211, 231, 0.6369062273689869) 14%,
+		rgba(0, 212, 255, 1) 100%
+	);
+	opacity: 1;
+	clip-path: circle(69px at 50% 47%);
+	transition: 0.5s ease-in-out;
+}
+
+.container .card:hover:before {
+	clip-path: circle(71.1% at 50% 0);
+}
+
+.container .card:after {
+	position: absolute;
+	top: 30%;
+	left: -20%;
+	font-size: 8em;
+	font-weight: 800;
+	font-style: italic;
+	color: rgba(255, 255, 25, 0.05);
+}
+
+.circular--square {
+	border: 2px;
+	opacity: 1;
+	border-radius: 50%;
+	overflow: hidden;
+	justify-content: center;
+	align-items: center;
+}
+
+.container .card .imgBx {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 10000;
+	width: 100%;
+	height: 60px;
+	transition: 0.5s;
+}
+
+.container .card:hover .imgBx {
+	top: 20%;
+	transform: translateY(20%);
+}
+
+.container .card .imgBx img {
+	position: absolute;
+	top: 58%;
+	left: 50%;
+	transform: translate(-50%, -60%);
+	width: 130px;
+	height: 130px;
+}
+
+.container .card .contentBx {
+	position: absolute;
+	padding: 0px;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	transition: 1s;
+	z-index: 10;
+}
+
+.container .card:hover .contentBx {
+	height: 96px;
+}
+
+.container .card .contentBx h2 {
+	position: relative;
+	font-size: 16px;
+	line-height: 1.3;
+	font-weight: 500;
+	letter-spacing: 1px;
+	color: #fff;
+	margin: 5px 0px 0px 0px;
+	text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.container .card .contentBx .size,
+.container .card .contentBx .color {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+	opacity: 0;
+	visibility: hidden;
+	padding: 3px 0;
+}
+
+.container .card:hover .contentBx .size {
+	opacity: 1;
+	visibility: visible;
+	transition-delay: 0.5s;
+}
+
+.container .card:hover .contentBx .color {
+	opacity: 1;
+	visibility: visible;
+	transition-delay: 0.4s;
+}
+
+.container .card .contentBx .size h3,
+.container .card .contentBx .color h3 {
+	color: #fff;
+	font-weight: 300;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-shadow: -2px -1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.container .card .contentBx .size span {
+	width: 26px;
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+	font-size: 14px;
+	display: inline-block;
+	color: #111;
+	background: #fff;
+	margin: 0 5px;
+	transition: 0.5s;
+	color: #111;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+/* .container .card .contentBx .size span:hover {
+	background-color: #9bdc28;
+} */
+
+.container .card .contentBx .color span {
+	width: 20px;
+	height: 20px;
+	background: url(./images/github.svg);
+	border-radius: 50%;
+	margin: 0 5px;
+	cursor: pointer;
+}
+
+.smi {
+	visibility: hidden;
+}
+
+.container .card .contentBx .color span:nth-child(2) {
+	background: url(./images/instagram.svg);
+}
+
+.container .card .contentBx .color span:nth-child(3) {
+	background-image: url(./images/facebook.svg);
+}
+
+.container .card .contentBx .color span:nth-child(4) {
+	background-image: url(./images/linkdin.svg);
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Bachpan!</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    html {
+    overflow: hidden;
+}
+body {
+    font-family: "Lato", sans-serif;
+    max-height: 100%;
+    overflow: hidden;
+    font-size: 50px;
+    font-weight: 600px;
+}
+.mySlides {display: none}
+h3{
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+p{
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(251,74,74,1) 0%, rgba(255,0,240,1) 100%);
+
+}
+</style>
+<body>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px; overflow: hidden;">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="bkp1.jpg" style="width:100%">
+    <div class="w3-display-middle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Bachpan</h3>
+      <p><b>{4kl1d_i4m</b></p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="bkp2.jpg" style="width:100%">
+    <div class="w3-display-middle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Ka</h3>
+      <p><b>_n8h_q1h5A}</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="bkp3.jpg" style="width:100%">
+    <div class="w3-display-middle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Pyaar</h3>
+      <p><b>galf_CB</b></p>    
+    </div>
+  </div>
+
+</div>
+
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
