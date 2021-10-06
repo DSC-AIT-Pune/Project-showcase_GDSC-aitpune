@@ -16,9 +16,9 @@
  <img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
  <a href="https://github.com/DSC-AIT-Pune" ><img src="https://img.shields.io/badge/Contributions-welcome-violet.svg?style=flat&logo=git" alt="Contributions" /></a>
 
-<a href="https://github.com/DSC-AIT-Pune/gdsc-ait-website/pulls"><img src="https://img.shields.io/github/issues-pr/DSC-AIT-Pune/gdsc-ait-website" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/DSC-AIT-Pune/gdsc-ait-website/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/DSC-AIT-Pune/gdsc-ait-website?color=2b9348"></a>
-<a href="https://github.com/DSC-AIT-Pune/gdsc-ait-website/blob/master/LICENSE"><img src="https://img.shields.io/github/license/DSC-AIT-Pune/gdsc-ait-website?color=2b9348" alt="License Badge"/></a>
+<a href="https://github.com/DSC-AIT-Pune/Project-showcase_GDSC-aitpune/pulls"><img src="https://img.shields.io/github/issues-pr/DSC-AIT-Pune/gdsc-ait-website" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/DSC-AIT-Pune/Project-showcase_GDSC-aitpune/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/DSC-AIT-Pune/gdsc-ait-website?color=2b9348"></a>
+<a href="https://github.com/DSC-AIT-Pune/Project-showcase_GDSC-aitpune/blob/master/LICENSE"><img src="https://img.shields.io/github/license/DSC-AIT-Pune/gdsc-ait-website?color=2b9348" alt="License Badge"/></a>
 
 
 </div>
