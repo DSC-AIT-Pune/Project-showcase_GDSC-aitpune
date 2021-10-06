@@ -6,17 +6,14 @@ Have any intresting project with you then share it with us and create a pull req
 
 
 Clone the Repository using git clone https://github.com/DSC-AIT-Pune/gdsc-ait-website.git.
-In your local system, open terminal at that location and run yarn install.
-Add .env file inside the folder along with other files using below structure.
-PORT=5000
-MONGO_URI=<Your MongoDB URI>
-JWT_SECRET=<SecretString you want to have>
-JWT_EXPIRES_IN=7d
-JWT_COOKIE_EXPIRE=7d
-Run yarn start
-Root directory is used for the backend of the applicaton and the frontend package is contained in client folder.
-Hit Star 😍 if you find this amazing.
-Author
+
+![image](https://user-images.githubusercontent.com/76676218/136141311-afb3c2ee-47db-4e20-8314-36964bc84f7a.png)
+
+After cloning this repo add your folder with git add .
+then commit it with : git commit -m "your commit message"
+then push your commit with : pit push or git push -u origin main
+
+ 
   
   
   
