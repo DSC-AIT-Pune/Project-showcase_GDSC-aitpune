@@ -1,72 +1,79 @@
-# Project-showcase_GDSC-aitpune
+<h1  align="center">Welcome to Google Developer Students Club, AIT 👋</h1>
 
+<p align="center">
+    <a href="https://hacktoberfest.digitalocean.com/">
+        <img src="https://raw.githubusercontent.com/DSC-AIT-Pune/gdsc-ait-website/hacktoberfest/client/src/images/logo-hacktoberfest-full.f42e3b1.svg" width="50%">
+    </a>
+</p>
 
-> ### Hacktoberfest encourages participation in the open source community, which grows bigger every year. Complete the 2021 challenge and earn a limited edition T-shirt.
-<br>
-
-[![Hacktoberfest 2021](./assets/logo1.png)](https://vinitshahdeo.dev/hacktoberfest-2021)
-# Hacktoberfest 2021
-
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/DSC-AIT-Pune) 
-
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FDSC-AIT-Pune%2FProject-showcase_GDSC-aitpune&count_bg=%23DD8524&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=visitors&edge_flat=false)](https://github.com/DSC-AIT-Pune)
-
-[![DSC AIT YOUTUBE](https://img.shields.io/youtube/channel/views/UCjw9RT5WEKOWSob1f4oiqdQ?style=social)](https://www.youtube.com/channel/UCjw9RT5WEKOWSob1f4oiqdQ) 
-
-[![Join our Discord](https://img.shields.io/badge/Join-Discord-8CA1A5?logo=discord&logoColor=blue)](https://discord.gg/mFbbbP7w)
-
-## Link for content : [Step into Github (content) ](https://whimsical.com/gitbranches-3DP5Hsv3VZbybWcQ4mP6NR)
+<h2 align="center">🎉 Hacktoberfest 2021 🎉</h2>
 
 <br>
 
-### AIT Repositories participating in Hacktoberfest
-
-| Repo Name  | Maintainer | Repo Link   |
-|---|---|---|
-| `Hacktoberfest2021`  | [DSC AIT PUNE](https://github.com/DSC-AIT-Pune)  | [Resources for Hacktoberfest 2021](https://github.com/DSC-AIT-Pune/Hacktoberfest2021)  |
-| `GDSC AIT website`  | [DSC AIT PUNE](https://github.com/DSC-AIT-Pune)  | [Google Developer Students Club, AIT official website.](https://github.com/DSC-AIT-Pune/gdsc-ait-website)  |
-| `Project-showcase_GDSC-aitpune`  | [DSC AIT PUNE](https://github.com/DSC-AIT-Pune)  | [Project-showcase_GDSC-aitpune](https://github.com/DSC-AIT-Pune/Project-showcase_GDSC-aitpune)  |
-
-Here's a home to your queries and quest for potential issues to contribute. We've compiled a handpicked list of **beginner-friendly issues** (& repositories) ahead of time so that you can get the ball rolling once Hacktoberfest kicks off! 🚀 
-
-If you are a beginner, the mentors (You can ask in DSC AIT [Discord](https://discord.gg/KzD4SWsr) ) will guide you on getting started with open source and completing your Hacktoberfest challenge. You can begin by introducing yourself [here](https://discord.gg/PHdTuSKS).
-
- 
-❯ [Register on Hacktoberfest](https://hacktoberfest.digitalocean.com/) 👀
-
-❯ [Your First PR](#your-first-pr) 🔥
-
-❯ [Ask Your Doubts](https://discord.gg/KzD4SWsr) 💬
-
-❯ [Request an event](https://discord.gg/PHdTuSKS) ⭐
-
-Hope we help each other to complete the [Hacktoberfest](https://hacktoberfest.digitalocean.com/) challenge!
-
-# Project-showcase_GDSC-aitpune
-
-Have any intresting project with you then share it with us and create a pull request in Hacktober fest . You just have to send a pull request of your project folder (rename as YourName_GDSC-aitpune )
- 
-Clone the Repository using git clone https://github.com/DSC-AIT-Pune/gdsc-ait-website.git.
-
-![image](https://user-images.githubusercontent.com/76676218/136141311-afb3c2ee-47db-4e20-8314-36964bc84f7a.png)
-
-After cloning this repo add your folder with git add .
-then commit it with : git commit -m "your commit message"
-then push your commit with : pit push or git push -u origin main
-
- 
+<div align="center">
   
-  
-  
-👤 GDSC AIT
+<img src="https://img.shields.io/badge/hacktoberfest-2021-blueviolet" alt="Hacktober Badge"/>
+ <img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
+ <a href="https://github.com/DSC-AIT-Pune" ><img src="https://img.shields.io/badge/Contributions-welcome-violet.svg?style=flat&logo=git" alt="Contributions" /></a>
 
-Twitter: @dsc_ait
-Github: @DSC-AIT-Pune
-Facebook: @dsc.aitpune
-LinkedIn: @dsc-ait
-Discord: @Google Developer Student Club, AIT Pune
-Acknowledgement
-Made with ♥ by Google Developers Students Club, AIT
-Show your support
-Give a ⭐️ if this project helped you!
- 
+<a href="https://github.com/DSC-AIT-Pune/gdsc-ait-website/pulls"><img src="https://img.shields.io/github/issues-pr/DSC-AIT-Pune/gdsc-ait-website" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/DSC-AIT-Pune/gdsc-ait-website/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/DSC-AIT-Pune/gdsc-ait-website?color=2b9348"></a>
+<a href="https://github.com/DSC-AIT-Pune/gdsc-ait-website/blob/master/LICENSE"><img src="https://img.shields.io/github/license/DSC-AIT-Pune/gdsc-ait-website?color=2b9348" alt="License Badge"/></a>
+
+
+</div>
+
+#### 🗣 Hacktoberfest encourages participation in the open source community, which grows bigger every year. Complete the 2021 challenge and earn a limited edition T-shirt.
+
+📢 **Register [here](https://hacktoberfest.digitalocean.com) for Hacktoberfest and make four pull requests (PRs) between October 1st-31st to grab free SWAGS 🔥.**
+
+
+Steps for creating your first pull request (PR)
+
+    1. Fork this repository
+    2. Goto branch named "main"
+    3. Navigate to "Projects"
+    4. Upload your projects
+    5. Commit changes
+    6. Goto "<>Code" tab & click Contribute
+    7. Open PR & create PR with a message 
+
+<h3 align="center">🤝 Congratulations on your first PR  🤝</h3>
+
+---
+## Github Contribution Rules
+- Pull requests can be submitted to any opted-in repository on GitHub or GitLab.
+- The pull request must contain commits you made yourself.
+- If a maintainer reports your pull request as spam, it will not be counted toward your participation in Hacktoberfest.
+- If a maintainer reports behavior that’s not in line with the project’s code of conduct, you will be ineligible to participate.
+- To get a shirt, you must make four approved pull requests (PRs) on opted-in projects between October 1-31 in any time zone.
+- This year, the first 50,000 participants can earn a T-shirt.
+---
+
+## Author
+
+👤 **GDSC AIT**
+
+* Twitter: [@dsc_ait](https://twitter.com/dsc_ait)
+* Github: [@DSC-AIT-Pune](https://github.com/DSC-AIT-Pune)
+* Facebook: [@dsc.aitpune](https://www.facebook.com/dsc.aitpune/)
+* LinkedIn: [@dsc-ait](https://www.linkedin.com/company/dsc-ait/)
+* Discord: [@Google Developer Student Club, AIT Pune](https://discord.gg/sCbmmS4j)
+## Acknowledgement
+
+* Made with &#9829; by Google Developers Students Club, AIT 
+
+## Show your support
+
+
+
+```javascript
+if (isAwesome) {
+    // thanks in advance :p
+    starThisRepository();
+    //⭐️
+}
+```
+-----------
+
+[![GitHub followers](https://img.shields.io/github/followers/DSC-AIT-Pune.svg?label=Follow%20@DSC-AIT-Pune&style=social)](https://github.com/DSC-AIT-Pune/) [![Twitter Follow](https://img.shields.io/twitter/follow/dsc_ait.svg?style=social)](https://twitter.com/dsc_ait)
