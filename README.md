@@ -22,6 +22,35 @@
 
 
 </div>
+ 
+ <h3 align="center">Connect with us :</h3>
+ <div align="center" width="100%" columns="2" row="1">
+ 
+ <p>
+ 
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/DSC-AIT-Pune) 
+ </p>
+ <p>
+ 
+ [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FDSC-AIT-Pune%2FProject-showcase_GDSC-aitpune&count_bg=%23DD8524&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=visitors&edge_flat=false)](https://github.com/DSC-AIT-Pune)
+ 
+ </p>
+ <p>
+ 
+[![Join our Discord](https://img.shields.io/badge/Join-Discord-8CA1A5?logo=discord&logoColor=blue)](https://discord.gg/mFbbbP7w)
+ 
+ 
+ </p>
+ 
+ <p>
+ 
+  
+[![DSC AIT YOUTUBE](https://img.shields.io/youtube/channel/views/UCjw9RT5WEKOWSob1f4oiqdQ?style=social)](https://www.youtube.com/channel/UCjw9RT5WEKOWSob1f4oiqdQ) 
+
+ </p>
+ 
+</div>
+ 
 
 #### 🗣 Hacktoberfest encourages participation in the open source community, which grows bigger every year. Complete the 2021 challenge and earn a limited edition T-shirt.
 
