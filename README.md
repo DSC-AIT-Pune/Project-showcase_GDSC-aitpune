@@ -1,5 +1,9 @@
 # Project-showcase_GDSC-aitpune
 
+
+> ### Hacktoberfest encourages participation in the open source community, which grows bigger every year. Complete the 2021 challenge and earn a limited edition T-shirt.
+<br>
+
 [![Hacktoberfest 2021](./assets/logo1.png)](https://vinitshahdeo.dev/hacktoberfest-2021)
 # Hacktoberfest 2021
 
@@ -10,9 +14,6 @@
 [![DSC AIT YOUTUBE](https://img.shields.io/youtube/channel/views/UCjw9RT5WEKOWSob1f4oiqdQ?style=social)](https://www.youtube.com/channel/UCjw9RT5WEKOWSob1f4oiqdQ) 
 
 [![Join our Discord](https://img.shields.io/badge/Join-Discord-8CA1A5?logo=discord&logoColor=blue)](https://discord.gg/mFbbbP7w)
-
-> ### Hacktoberfest encourages participation in the open source community, which grows bigger every year. Complete the 2021 challenge and earn a limited edition T-shirt.
-<br>
 
 ## Link for content : [Step into Github (content) ](https://whimsical.com/gitbranches-3DP5Hsv3VZbybWcQ4mP6NR)
 
