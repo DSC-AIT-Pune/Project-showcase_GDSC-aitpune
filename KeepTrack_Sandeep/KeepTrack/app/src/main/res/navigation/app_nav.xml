@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav"
+    app:startDestination="@id/home2">
+
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.sv.keeptrack.Home"
+        android:label="Notes"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home2_to_takeNote"
+            app:destination="@id/takeNote" />
+        <action
+            android:id="@+id/action_home2_to_editNote"
+            app:destination="@id/editNote" />
+    </fragment>
+    <fragment
+        android:id="@+id/takeNote"
+        android:name="com.sv.keeptrack.TakeNote"
+        android:label="Add Note"
+        tools:layout="@layout/fragment_take_note">
+        <action
+            android:id="@+id/action_takeNote_to_home2"
+            app:destination="@id/home2" />
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <argument
+            android:name="item_id"
+            android:defaultValue="-1"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/editNote"
+        android:name="com.sv.keeptrack.EditNote"
+        android:label="Edit"
+        tools:layout="@layout/fragment_edit_note">
+        <argument
+            android:name="item_id"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_editNote_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+</navigation>
