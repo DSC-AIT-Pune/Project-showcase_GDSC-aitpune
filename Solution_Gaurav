@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>SOLUTIONS GAME</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/styles.min.css?h=cfa9952bfe503d05fa6abb5a59beea1e">
+</head>
+
+<body class="justify-content-between">
+    <nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark">
+        <div class="container"><i class="fa fa-gamepad"></i><a class="navbar-brand" href="#">GAMES</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-gamepad"></i>COD</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-gamepad"></i>AMONG US</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-gamepad"></i>scribble</a></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                </ul><a href="#"></a>
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                </ul><i class="fa fa-search"></i>
+            </div>
+        </div>
+    </nav>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
