@@ -1,0 +1,108 @@
+.contact {
+    font-size: 1rem;
+    padding: 2rem 4rem;
+    background: url("https://media.giphy.com/media/oB6KlAvOuaLtxYy8l4/giphy.gif");
+    font-family: 'Architects Daughter', cursive;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.contact::-webkit-scrollbar{
+    width: 0;
+}
+
+.contact-cont{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    row-gap: 4rem;
+}
+
+.contact-cont p{
+    grid-column: 1 / span 3;
+    font-size: 4.5rem;
+    padding: 0;
+    margin: 0;
+    justify-self: center;
+}
+
+.icn{
+    justify-self: center;
+    padding: .5rem;
+    border-radius: 2rem;
+}
+
+.icn:hover{
+    box-shadow: 2px 2px 20px 10px rgba(83, 81, 81, 0.753);
+
+}
+
+.icn2{
+    grid-column: 3 / span 1;
+}
+
+.contact-img{
+    height: 100px;
+    width: 100px;
+    justify-self: center;
+    transition: height .5s,width .5s;
+}
+
+.contact-img:hover{
+    height: 110px;
+    width: 110px;
+    justify-self: center;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .contact {
+        height: 85vh;
+        font-size: 1rem;
+        padding: 1rem;
+        margin: auto;
+        text-align: center;
+    }
+
+    .contact-cont{
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        row-gap: 6rem;
+    }
+
+    .contact-cont p{
+        grid-column: 1 / span 2;
+        font-size: 4.5rem;
+        padding: 0;
+        margin: 0;
+        justify-self: center;
+    }
+
+    .icn2{
+        grid-column: 2 / span 1;
+    }
+
+    .icn3{
+        display: none;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+    .contact {
+        height: 85vh;
+        font-size:1rem;
+        padding: 0;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    .contact {
+        height: 85vh;
+    }
+    
+}
