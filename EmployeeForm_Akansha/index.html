@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Application form</title>
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <link href="//fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://www.pdffiller.com/css_v2/link2fill-0.1.min.css">
+    <link rel="stylesheet" type="text/css" href="https://www.pdffiller.com/css_v2/link2fill-0.1.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script>
+      function yesnoCheck() {
+        if (document.getElementById('yesCheck').checked) {
+          document.getElementById('ifYes').style.visibility = 'visible';
+        } else document.getElementById('ifYes').style.visibility = 'hidden';
+      }
+    </script>
+    <script type="application/x-javascript">
+      addEventListener("load", function() {
+        setTimeout(hideURLbar, 0);
+      }, false);
+
+      function hideURLbar() {
+        window.scrollTo(0, 1);
+      }
+    </script>
+    <script type="text/javascript">
+      function ValidateForm(frm) {
+        if (frm.Name.value == "") {
+          alert('Name is required.');
+          frm.Name.focus();
+          return false;
+        }
+        if (frm.Email_Address.value == "") {
+          alert('Email address is required.');
+          frm.Email_Address.focus();
+          return false;
+        }
+        if (frm.Email_Address.value.indexOf("@") < 1 || frm.Email_Address.value.indexOf(".") < 1) {
+          alert('Please enter a valid email address.');
+          frm.Email_Address.focus();
+          return false;
+        }
+        if (!form.terms.checked) {
+          alert("Validate Checkboxes");
+          form.terms.focus();
+          return false;
+        }
+        if (frm.Position.value == "") {
+          alert('Position is required.');
+          frm.Position.focus();
+          return false;
+        }
+        if (frm.Phone.value == "") {
+          alert('Phone is required.');
+          frm.Phone.focus();
+          return false;
+        }
+        return true;
+      }
+    </script>
+  </head>
+  <body>
+    <section class="agile-volt">
+      <form action="http://akansha.com/leadcontact.php" method="post" onsubmit="return ValidateForm(this);" target="_top">
+        <input id="skip_WhereToSend" name="skip_WhereToSend" type="hidden" value="MLowe@akansha.com" />
+        <input id="skip_WhereToSend" name="skip_WhereToSend" type="hidden" value="JStLuce@akansha.com" />
+        <input id="skip_WhereToSend" name="skip_WhereToSend" type="hidden" value="akansha@gmail.com" />
+        <input id="skip_SnapHostID" name="skip_SnapHostID" type="hidden" value="8NBMBETPTGJR" />
+        <input id="skip_WhereToReturn" name="skip_WhereToReturn" type="hidden" value="https://akansha.com/services/" />
+        <input id="skip_Subject" name="skip_Subject" type="hidden" value="Employment Application" />
+        <input id="skip_ShowUsersIp" name="skip_ShowUsersIp" type="hidden" value="1" />
+        <input id="skip_SendCopyToUser" name="skip_SendCopyToUser" type="hidden" value="1" />
+        <div class="agile-voltheader">
+          <h1>Employment Application form</h1>
+        </div>
+        <div class="agile-voltsub">
+          <h2>Personal Information</h2>
+          <div class="agile-name">
+            <p>Name :</p>
+            <input type="text" name="username" placeholder="" required="required" autofocus>
+          </div>
+          <div class="agile-email">
+            <p>E-mail :</p>
+            <input type="email" name="email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$" placeholder="" required>
+          </div>
+          <div class="agile-address">
+            <p>Address :</p>
+            <input type="text" name="address" placeholder="" required>
+          </div>
+          <div class="clear"></div>
+          <div class="agile-city">
+            <p>City :</p>
+            <input type="text" name="city" placeholder="" minlength="1" maxlength="20" />
+          </div>
+          <div class="agile-country">
+            <p>State</p>
+            <select>
+              <option value="AL">Alabama (AL)</option>
+              <option value="AK">Alaska (AK)</option>
+              <option value="AZ">Arizona (AZ)</option>
+              <option value="AR">Arkansas (AR)</option>
+              <option value="CA">California (CA)</option>
+              <option value="CO">Colorado (CO)</option>
+              <option value="CT">Connecticut (CT)</option>
+              <option value="DE">Delaware (DE)</option>
+              <option value="DC">District Of Columbia (DC)</option>
+              <option value="FL">Florida (FL)</option>
+              <option value="GA">Georgia (GA)</option>
+              <option value="HI">Hawaii (HI)</option>
+              <option value="ID">Idaho (ID)</option>
+              <option value="IL">Illinois (IL)</option>
+              <option value="IN">Indiana (IN)</option>
+              <option value="IA">Iowa (IA)</option>
+              <option value="KS">Kansas (KS)</option>
+              <option value="KY">Kentucky (KY)</option>
+              <option value="LA">Louisiana (LA)</option>
+              <option value="ME">Maine (ME)</option>
+              <option value="MD">Maryland (MD)</option>
+              <option value="MA">Massachusetts (MA)</option>
+              <option value="MI">Michigan (MI)</option>
+              <option value="MN">Minnesota (MN)</option>
+              <option value="MS">Mississippi (MS)</option>
+              <option value="MO">Missouri (MO)</option>
+              <option value="MT">Montana (MT)</option>
+              <option value="NE">Nebraska (NE)</option>
+              <option value="NV">Nevada (NV)</option>
+              <option value="NH">New Hampshire (NH)</option>
+              <option value="NJ">New Jersey (NJ)</option>
+              <option value="NM">New Mexico (NM)</option>
+              <option value="NY">New York (NY)</option>
+              <option value="NC">North Carolina (NC)</option>
+              <option value="ND">North Dakota (ND)</option>
+              <option value="OH">Ohio (OH)</option>
+              <option value="OK">Oklahoma (OK)</option>
+              <option value="OR">Oregon (OR)</option>
+              <option value="PA">Pennsylvania (PA)</option>
+              <option value="RI">Rhode Island (RI)</option>
+              <option value="SC">South Carolina (SC)</option>
+              <option value="SD">South Dakota (SD)</option>
+              <option value="TN">Tennessee (TN)</option>
+              <option value="TX">Texas (TX)</option>
+              <option value="UT">Utah (UT)</option>
+              <option value="VT">Vermont</option>
+              <option value="VA">Virginia</option>
+              <option value="WA">Washington</option>
+              <option value="WV">West Virginia</option>
+              <option value="WI">Wisconsin</option>
+              <option value="WY">Wyoming</option>
+            </select>
+          </div>
+          <div class="agile-pin">
+            <p>Zipcode :</p>
+            <input type="tel" name="zipcode" maxlength="6" placeholder="" />
+          </div>
+          <div class="clear"></div>
+          <div class="agile-name">
+            <p>Phone number :</p>
+            <input type="tel" pattern="^\d{3}\d{3}\d{4}$" maxlength="20" required="required" autofocus>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <div class="agile-voltsub">
+          <h2>Work Preference</h2>
+          <div class="agile-name">
+            <p>Date Available :</p>
+            <input type="date" name="bday" placeholder="" required="" autofocus>
+          </div>
+          <p>Employment Requested :</p>
+          <div class="agile-days">
+            <ul>
+              <li>
+                <label for="muhRadio1">
+                  <input type="radio" name="muhRadio" value="" /> Full Time </label>
+              </li>
+              <li>
+                <label for="muhRadio2">
+                  <input type="radio" name="muhRadio" value="" /> Part Time </label>
+              </li>
+              <li>
+                <label for="muhRadio3">
+                  <input type="radio" name="muhRadio" value="" /> Temporary </label>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="agile-voltsub">
+          <h2>Education</h2>
+          <fieldset>
+            <legend>Education</legend>
+            <select class="form-control dropdown" id="education" name="education">
+              <option value="" selected="selected" disabled="disabled">-- select one --</option>
+              <option value="No formal education">No formal education</option>
+              <option value="Primary education">Primary education</option>
+              <option value="Secondary education">Secondary education or high school</option>
+              <option value="GED">GED</option>
+              <option value="Vocational qualification">Vocational qualification</option>
+              <option value="Bachelor's degree">Bachelor's degree</option>
+              <option value="Master's degree">Master's degree</option>
+              <option value="Doctorate or higher">Doctorate or higher</option>
+            </select>
+          </fieldset>
+        </div>
+        <div class="agile-voltsub">
+          <h2>Skills Section</h2>
+          <div class="agile-week">
+            <p>Related Knowledge/Skills :</p>
+            <textarea></textarea>
+          </div>
+          <div class="agile-name">
+            <p>Have you worked with Students Before?</p>
+            <input type="checkbox" class='group-a' data-name='YES' id="yesCheck" value="Yes" /> Yes &nbsp; &nbsp; &nbsp; <input type="checkbox" class='group-a' data-name='NO' id="yesCheck" value="No" /> No &nbsp; &nbsp; &nbsp;
+          </div>
+          <div class="agile-name">
+            <p>Do you work well with Team?</p>
+            <input type="checkbox" class='group-b' data-name='YES' id="yesCheck" value="Yes" /> Yes &nbsp; &nbsp; &nbsp; <input type="checkbox" class='group-b' data-name='NO' id="yesCheck" value="No" /> No &nbsp; &nbsp; &nbsp;
+          </div>
+          <div class="agile-name">
+            <p>Do you have Experience in Fundraising?</p>
+            <input type="checkbox" class='group-c' data-name='YES' id="yesCheck" value="Yes" /> Yes &nbsp; &nbsp; &nbsp; <input type="checkbox" class='group-c' data-name='NO' id="yesCheck" value="No" /> No &nbsp; &nbsp; &nbsp;
+          </div>
+          <div class="agile-name">
+            <p>Would you be willing to work Overtime?</p> Yes <input type="radio" class='group-d' data-name='YES' onclick="javascript:yesnoCheck();" name="yesno" id="yesCheck"> No <input type="radio" class='group-d' data-name='NO' onclick="javascript:yesnoCheck();" name="yesno" id="noCheck">
+            <br>
+            <div id="ifYes" style="visibility:hidden">
+              <p>How do you prefer to be Contacted?</p>
+              <br>
+              <label>
+                <select name="contact" id="contact">
+                  <option value="">E-Mail</option>
+                  <option value="">Text Message</option>
+                  <option value="">Phone Call</option>
+                </select>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="agile-voltsub">
+          <h2>Professional References</h2>
+          <div class="agile-name">
+            <p>Reference1 Name :</p>
+            <input type="text" name="name" placeholder="" required="" autofocus>
+          </div>
+          <div class="agile-address">
+            <p>Address :</p>
+            <input type="text" name="location" placeholder="" required="" autofocus>
+          </div>
+          <div class="agile-name">
+            <p>Occupation :</p>
+            <input type="text" name="name" placeholder="" required="" autofocus>
+          </div>
+          <div class="agile-name">
+            <p>Phone :</p>
+            <input type="tel" pattern="^\d{3}\d{3}\d{4}$" maxlength=10 autofocus>
+          </div>
+          <hr />
+          <div class="agile-name">
+            <p>Reference2 Name :</p>
+            <input type="text" name="name" placeholder="" required="" autofocus>
+          </div>
+          <div class="agile-address">
+            <p>Address :</p>
+            <input type="text" name="location" placeholder="" required="" autofocus>
+          </div>
+          <div class="agile-name">
+            <p>Occupation :</p>
+            <input type="text" name="name" placeholder="" required="" autofocus>
+          </div>
+          <div class="agile-name">
+            <p>Phone :</p>
+            <input type="tel" pattern="^\d{3}\d{3}\d{4}$" maxlength=10 autofocus>
+          </div>
+        </div>
+        <div class="agile-voltsub">
+          <h2>Background</h2>
+          <div class="agile-days">
+            <p>Have you ever been convicted of a Crime?</p>
+            <input class='group-a' data-name='YES' type='checkbox' value='YES' /> Yes &nbsp; &nbsp; &nbsp; <input class='group-a' data-name='NO' type='checkbox' value='NO' /> No &nbsp; &nbsp; &nbsp;
+          </div>
+          <div class="agile-days">
+            <p>ARE YOU A U.S. CITIZEN OR ARE YOU LEGALLY AUTHORIZED TO WORK IN THE U.S.?</p>
+            <input class='group-b' data-name='YES' type='checkbox' value='YES' /> Yes &nbsp; &nbsp; &nbsp; <input class='group-b' data-name='NO' type='checkbox' value='NO' /> No &nbsp; &nbsp; &nbsp;
+          </div>
+          <div class="agile-days">
+            <p>Do you understand this is a 1099 opportunity?</p> Yes <input type="checkbox" class='group-c' data-name='YES' value="Yes"> No <input type="checkbox" class='group-c' data-name='NO' value="No">
+            <br>
+            <p>
+              <a href="https://pdf.ac/7NJMOL" target="_blank" title="w2 Form " style="color:#ffffff;background:#ff9900" class="pdffiller-fill-form-btn">Fill w2 Form</a>
+            <div class="pdffiller-clr"></div>
+            <a href="https://pdf.ac/7lH8kI" target="_blank" title="w9 Form " style="color:#ffffff;background:#ff9900" class="pdffiller-fill-form-btn">Fill w9 Form</a>
+            <div class="pdffiller-clr"></div>
+            </p>
+          </div>
+        </div>
+        <br>
+        </div>
+        <div class="clear"></div>
+        <input name="skip_Submit" type="submit" value="Send Application" />
+      </form>
+      <div class="agile-copyright">
+        <footer style="  color:#000;">&copy; 2019 Employment Application form. All Rights Reserved | Design by <a href="https://www.akansha.com/" target="blank">Akansha</a>
+        </footer>
+      </div>
+    </section>
+    <script>
+      $(function() {
+        $('form').submit(function(e) {
+          debugger;
+          var checkedGroups = [];
+          // Check each group 
+          $(':checkbox[class^="group-"]').each(function() {
+            debugger;
+            var currentGroup = $(this).attr('class');
+            // If the current group hasn't been checked, check it
+            if ($.inArray(currentGroup, checkedGroups) == -1) {
+              var atLeastOneChecked = $(':checkbox.' + currentGroup + ':checked').length > 0;
+              if (!atLeastOneChecked) {
+                alert("Please ensure that an option from " + $(this).data('name') + " is checked.");
+                e.preventDefault();
+                return false;
+              }
+              // If we have made it this far, then this group has been checked
+              checkedGroups.push(currentGroup);
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
+<!--Include ...
+ 
+																										<?php
+  $name = $_POST['name'];
+  $email = $_POST['email'];
+  $subject = $_POST['subject'];
+  $message = $_POST['message'];
+
+  $to = "MLowe@gmail.com";
+  $message = '
+  name: '.$name.'
+  email: '.$email.'
+   message: '.$message.'
+  ';
+
+ $headers = 'From: pep.website@website.com';
+
+   if (
+    mail($to, $subject, $message, $headers)
+) 
+      echo"<script>alert('Form send Succesfully')</script>";
+   else
+      echo"<script>alert('Form not Send')</script>";
+
+ ?>--->
