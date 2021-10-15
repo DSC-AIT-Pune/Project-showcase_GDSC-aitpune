@@ -1,0 +1,121 @@
+.skills {
+    font-size: 1rem;
+    padding: 2rem 4rem;
+    background: url("https://media.giphy.com/media/6YXmxRMrjKZMLUree4/giphy.gif");
+    font-family: 'Architects Daughter', cursive;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.skills::-webkit-scrollbar{
+    width: 0;
+}
+
+#skills-cont{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    width: 100%;
+    height: 100%;
+    row-gap: 2rem;
+}
+
+#skills-desc{
+    grid-column: 1 / span 2;
+}
+
+#skills-desc p{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#skills-cont h1{
+    font-size: 5rem;
+    padding: 0;
+    margin: 0;
+}
+
+#svg{
+    grid-column: 3 / span 2;
+    justify-self: end;
+}
+
+.skill-icon{
+    border-radius: 100%;
+    justify-self: center;
+    width: 7rem;
+    height: 7rem;
+    transition: height .5s, width .5s;
+    color: #FEF3E9;
+}
+
+.skill-icon:hover{
+    box-shadow: 2px 2px 10px 7px rgba(202, 199, 199, 0.959);
+    cursor: pointer;
+    width: 7.5rem;
+    height: 7.5rem;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .skills {
+        height: 85vh;
+        font-size: 1rem;
+        padding: 1rem;
+        margin: auto;
+        text-align: center;
+    }
+
+    #skills-cont{
+        grid-template-columns: repeat(2, 50%);
+    }
+
+    #skills-desc{
+        grid-column: 1 / span 2;
+    }
+
+    #svg{
+        grid-column: 1 / span 2;
+        justify-self: center;
+    }
+
+    #skills-cont{
+        grid-template-columns: repeat(2, 50%);
+        row-gap: 3rem;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+    .skills {
+        height: 85vh;
+        font-size:1rem;
+        padding: 3rem;
+        margin: auto;
+        text-align: center;
+    }
+
+    #skills-desc{
+        grid-column: 1 / span 2;
+    }
+
+    #svg{
+        grid-column: 1 / span 2;
+        justify-self: center;
+    }
+
+    #skills-cont{
+        grid-template-columns: repeat(2, 50%);
+        row-gap: 3rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    .skills {
+        height: 85vh;
+    }
+    
+}

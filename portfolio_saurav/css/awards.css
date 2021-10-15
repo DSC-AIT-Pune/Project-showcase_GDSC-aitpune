@@ -1,0 +1,112 @@
+.awards {
+    font-size: 1rem;
+    padding: 2rem 4rem;
+    background: url("https://media.giphy.com/media/6YXmxRMrjKZMLUree4/giphy.gif");
+    font-family: 'Architects Daughter', cursive;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.awards::-webkit-scrollbar{
+    width: 0;
+}
+
+.certi-grid{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    row-gap: 2rem;
+}
+
+.awards-cont h1{
+    font-size: 2.8rem;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.card-cont{
+    height: auto;
+    width: 300px;
+    border: 5px solid white;
+    padding: 10px;
+    justify-self: center;
+    transition: box-shadow .5s;
+}
+
+.card-cont:hover{
+    box-shadow: 5px 5px 10px 10px rgba(129, 126, 126, 0.699);
+}
+
+.card-cont a{
+    text-decoration: none;
+    color: black;
+}
+
+.card-img{
+    width: 270px;
+    background: white;
+    padding: 10px;
+}
+
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .awards {
+        height: 85vh;
+        font-size: 1rem;
+        padding: 1rem;
+        margin: auto;
+        text-align: center;
+    }
+
+    .certi-grid{
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+        row-gap: 2rem;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+    .awards {
+        height: 85vh;
+        font-size:1rem;
+        padding: 0;
+        margin: auto;
+        text-align: center;
+    }
+
+    .certi-grid{
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+        row-gap: 2rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    .awards {
+        height: 85vh;
+    }
+    
+    .certi-grid{
+        display: grid;
+        grid-template-columns: repeat(2,50%);
+        row-gap: 2rem;
+    }
+
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+    .awards {
+        height: 85vh;
+    }
+    
+    .certi-grid{
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+        row-gap: 2rem;
+    }
+
+}
