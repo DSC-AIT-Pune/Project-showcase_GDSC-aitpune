@@ -1,0 +1,99 @@
+.background{
+    background: url("../images/plans-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: -10;
+}
+
+.pak-container{
+    background-color: rgba(31, 179, 31,0.9);
+    margin: 16px 0;
+    padding: 32px;
+    border: 5px solid black;
+    border-left: none;
+    display: inline-block;
+    width: 60%;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.pak-container:hover{
+    border: 5px solid #ff1b68;
+    border-left: none;
+}
+
+.plan-mid{
+    float: right;
+    border: 5px solid black;
+    text-align: right;
+    border-right: none;
+}
+
+.plan-mid:hover{
+    border: 5px solid #ff1b68;
+    border-right: none;
+}
+
+.pak-container h1{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.pak-container h2{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.pak-container p{
+    background-color: white;
+    padding: 32px;
+    border: 3px solid black;
+}
+
+.pak-badge{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    font-size: 0.8rem;
+    color: white;
+    background-color: #ff5454;
+    padding: 8px;
+    transform: rotateZ(45deg) translateX(4.2rem) translateY(.1rem);
+    transform-origin: center;
+    width: 15rem;
+    text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 425px){
+    .pak-container{
+        width: 80%;
+    }
+
+    .pak-badge{
+        margin: 0;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 768px){
+    .pak-container{
+        width: 80%;
+    }
+
+    .pak-badge{
+        margin: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+  
+}
+
+@media (min-width:1025px) {
+  
+}

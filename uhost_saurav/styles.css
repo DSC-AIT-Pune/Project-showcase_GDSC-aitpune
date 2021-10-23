@@ -1,0 +1,248 @@
+#product-overview{
+    background-image: url("images/freedom.jpg");
+    /* background-image: linear-gradient(to top, red 70%, transparent); */
+    background-size: cover;
+    background-position: left 10% bottom 70%;
+    background-repeat: no-repeat;
+    height: 50vh;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#product-overview h1{
+    text-align: right;
+    padding: 0 64px;
+    margin: 0;
+    color: black;
+    font-size: 3em;
+}
+
+.plan{
+    background-color: #d5ffdc;
+    text-align: center;
+    padding: 16px;
+    margin: 8px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+}
+
+.recom{
+    background-color: #19b84c;
+    color: white ;
+    box-shadow: 5px 5px 10px 2px rgba(27, 27, 27, 0.5);
+}
+
+.plan-rec{
+    color: #19b84c;
+    background-color: white;
+    padding: 6px;
+    margin: 10px;
+    border-radius: 16px;
+    box-shadow: 3px 3px 5px 2px rgba(7, 7, 7, 0.5);
+}
+
+#plans{
+    text-align: center;
+    padding: 10px;
+}
+
+.plan li{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.plan ul{
+    padding: 0;
+}
+
+.price{
+    color: rgba(102, 100, 100, 0.986);
+}
+
+.button{
+    background-color: #0e4f1f;
+    color: white;
+    font: inherit;
+    border: none;
+    padding: 8px;
+    border-radius: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button:hover,
+.button:active{
+    color: #0e4f1f;
+    background-color: white;
+}
+
+#key-features{
+    background-color: #ff1b68;
+    margin-top: 64px;
+    padding: 32px;
+}
+
+#key-features h1{
+    color: white;
+}
+
+.choose-plan{
+    width: 80%;
+    margin: auto;
+}
+
+.features{
+    display: inline-block;
+    list-style: none;
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: white;
+    text-align: center;
+    vertical-align: top;
+}
+
+.feature-image{
+    height: 300px;
+    width: 300px;
+    background-color: #d5ffdc;
+    border-radius: 50%;
+    border: 4px solid black;
+    margin: auto;
+    padding: 60px;
+}
+
+@media (min-width: 320px) and (max-width: 425px){
+    #product-overview{
+        background-position: left 10% bottom 60%;
+        height: 50vh;
+    }
+
+    #product-overview h1{
+        font-size: 1.4em;
+        margin: 64px 16px 64px 0;
+        padding-right: 0;
+    }
+
+    .plan{
+        margin: 32px auto;
+        display: block;
+        width: 90%;
+    }
+
+    .recom{
+        background-color: #19b84c;
+    }
+
+    #key-features ul{
+        margin: 0;
+        padding: 0;
+    }
+
+    .features{
+        display: block;
+        width: 100%;
+        margin: auto;
+        padding: 0;
+    }
+
+    .feature-image{
+        height: 200px;
+        width: 200px;
+    }
+
+    
+}
+
+@media (min-width: 425px) and (max-width: 768px){
+    #product-overview{
+        background-position: left 10% bottom 60%;
+        height: 50vh;
+    }
+
+    #product-overview h1{
+        font-size: 2em;
+        margin: 42px 16px 64px 0;
+        padding-right: 0;
+    }
+
+    .plan{
+        margin: 32px auto;
+        display: block;
+        width: 90%;
+    }
+
+    .recom{
+        background-color: #19b84c;
+    }
+
+    #key-features ul{
+        margin: 0;
+        padding: 0;
+    }
+
+    .features{
+        display: block;
+        width: 100%;
+        margin: auto;
+        padding: 0;
+    }
+
+    .feature-image{
+        height: 250px;
+        width: 250px;
+    }
+
+    .footer-ul{
+        padding: 0;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    #product-overview h1{
+        font-size: 2em;
+        margin: 42px 16px 64px 0;
+        padding-right: 16px;
+    }
+
+    .plan{
+        margin: 32px auto;
+        display: block;
+        width: 90%;
+    }
+
+    .recom{
+        background-color: #19b84c;
+    }
+
+    #key-features ul{
+        margin: 0;
+        padding: 0;
+    }
+
+    .features{
+        display: inline-block;
+        width: 30%;
+        margin: 10px;
+        padding: 0;
+    }
+
+    .feature-image{
+        height: 200px;
+        width: 200px;
+    }
+
+    .footer-ul{
+        padding: 0;
+    }
+}
+
+@media (min-width:1025px) {
+    #product-overview{
+        height: 60vh;
+    }
+}
