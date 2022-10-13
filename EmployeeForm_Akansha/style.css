@@ -81,7 +81,8 @@
      padding: 1em 0 1em;
 }
  .agile-voltsub {
-     width: 35%;
+    /* background-color: ; */
+         width: 35%;
      margin: 0 auto;
      background: rgba(41, 41, 41, 0.52);
      box-sizing: border-box;
@@ -234,7 +235,7 @@
      text-align: center;
      text-transform: capitalize;
      letter-spacing: 2px;
-     color: #fff;
+     /* color: red; */
      padding: 2em 0em 2em;
 }
  footer a{
@@ -243,7 +244,7 @@
      text-align: center;
      text-transform: capitalize;
      letter-spacing: 1px;
-     color: #e8ec19;
+     color: red;
      text-decoration:none;
 }
  .agile-days span {

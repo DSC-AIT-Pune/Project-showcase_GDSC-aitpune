@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">FirebaseAuthentication</string>
-    <string name="enter_password">Enter Password</string>
-    <string name="enter_email">Enter Email</string>
-</resources>
